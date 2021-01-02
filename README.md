@@ -1,4 +1,4 @@
-#Task-Scheduler
+#Task-Scheduler <br>
 Tasks which are cpu intensive and doesn't need an immediate
 response can be processed in background. For example, generating Pdf
 files. User might not expect the Pdf generation in real-time. So,
@@ -13,16 +13,16 @@ sends the task to queue. Here we use RabbitMq as broker. Celery is being
 used in this repo. Celery provides apis for task-queues and 
 supports distributed environment.Used Django as framework.<br>
 
-##Dependencies
+##Dependencies<br>
 Python - 3.9<br>
 Django - 3.1<br>
 Celery - 5.0<br>
 RabbitMq - 3.8.9
 
-##Commands
+##Commands<br>
 ``$ celery -A task_scheduler worker -Q {queue_name} ``<br>
 ``$ celery -A task_scheduler beat``<br>
 ``$ python manage.py runserver``
 
-###Note
+###Note<br>
 We need to run Django Server as well as celery worker.
