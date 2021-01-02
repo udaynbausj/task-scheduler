@@ -4,6 +4,8 @@ billiard==3.6.3.0
 boto3==1.16.43
 botocore==1.19.43
 celery==5.0.5
+certifi==2020.12.5
+chardet==4.0.0
 click==7.1.2
 click-didyoumean==0.0.3
 click-plugins==1.1.1
@@ -13,6 +15,7 @@ django-filter==2.4.0
 djangorestframework==3.12.2
 flower==0.9.7
 humanize==3.2.0
+idna==2.10
 jmespath==0.10.0
 kombu==5.0.2
 Markdown==3.3.3
@@ -21,6 +24,7 @@ prompt-toolkit==3.0.8
 pycurl==7.43.0.5
 python-dateutil==2.8.1
 pytz==2020.5
+requests==2.25.1
 s3transfer==0.3.3
 six==1.15.0
 sqlparse==0.4.1

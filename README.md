@@ -21,6 +21,7 @@ RabbitMq - 3.8.9
 
 ##Commands
 ``$ celery -A task_scheduler worker -Q {queue_name} ``<br>
+``$ celery -A task_scheduler beat``<br>
 ``$ python manage.py runserver``
 
 ###Note

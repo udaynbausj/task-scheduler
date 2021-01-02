@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('health/', include('health.urls')),
     path('streak/', include('streaks.urls')),
+    path('ping/', include('ping.urls')),
 ]
