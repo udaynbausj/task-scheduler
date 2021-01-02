@@ -5,4 +5,11 @@ import time
 @app.task()
 def invalidate_streaks(counter):
     time.sleep(10)
-    print("done")
+    for i in range(10):
+        print("done")
+
+
+@app.task()
+def health():
+    time.sleep(10)
+    print("health is fine. this is from worker")
