@@ -3,3 +3,4 @@
 venv
 db.sqlite3
 celerybeat-schedule.db
+*/__pycache__
