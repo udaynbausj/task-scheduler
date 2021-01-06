@@ -25,7 +25,7 @@ SECRET_KEY = '=pw(t#1a4h@#iib((ahm_ulvl)7qqr(1hndk#ho5+!7!5_i^-x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'devo-pub-1972348148.ap-south-1.elb.amazonaws.com']
 
 
 # Application definition
